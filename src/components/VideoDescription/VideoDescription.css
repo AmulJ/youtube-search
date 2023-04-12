@@ -1,0 +1,33 @@
+.text-container {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.video-title {
+  padding-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 40px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.video-description-container {
+  padding-bottom: 2px;
+}
+
+.video-description {
+  color: var(--gray);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 14px;
+}
